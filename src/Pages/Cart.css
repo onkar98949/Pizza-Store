@@ -1,0 +1,67 @@
+.flex1,.flex2,.flex3{
+    display: flex;
+ 
+}
+ul{
+    display: flex;
+}
+
+.flex1{
+    font-family: 'Poppins', sans-serif;
+    width: 900px;
+    gap: 30px;
+    align-items: center;
+    margin-left: 280px;
+    background-color:beige;
+    justify-content: space-around;
+}
+.flex2{
+    align-items: center;
+}
+
+.flex2{
+    gap: 40px;
+}
+.flex3{
+    gap: 10px;
+    align-items: center;
+}
+
+button{
+    padding: 6px 6px;
+   
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.increbtn,.decrebtn{
+    border-radius: 20px;
+    background-color: orange;
+}
+.removebtn{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(248, 48, 48, 0.975);
+}
+
+.name{
+    font-family: 'Poppins', sans-serif;
+}
+.pizzaimg{
+    border-radius: 10px;
+    width: 300px;
+    height: 230px;
+}
+
+.total{
+    text-align: center;
+    float: right;
+    margin: 20px 50px;
+}
+.total h2{
+    font-family: 'Poppins', sans-serif;
+    line-height: 10px;
+}
+.total button{
+    background-color: orange;
+    margin-bottom: 70px;
+}

@@ -1,0 +1,39 @@
+.Banner{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    flex-wrap: wrap;
+    background-color:beige;
+    width: 100%;
+}
+.bigimage{
+   
+    margin: auto;
+}
+.bigimage img{
+    width: 500px;
+    border-radius: 20px;
+}
+.bigtext{ 
+    width: 50%;
+    background-color:beige;
+    text-align: center;
+}
+.bigtext button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: orange;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+.bigtext h2{
+    margin-top: 100px;
+    font-family:cursive;
+    line-height: 5px;
+}
+.bigtext button:hover{
+    transform: scale(1.05);
+   
+    transition: 0.3s ease;
+    cursor: pointer;
+}
